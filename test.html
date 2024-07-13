@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .jump_window {
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            background-color: #eeca5c;
+            color: #584444;
+            text-align: center;
+            word-break: keep-all;
+        }
+
+        .btn-sure{
+            background-color: #fae39f;
+            border:1px solid #584444;
+            color: #584444;
+        }
+        .btn-sure:hover{
+            background-color:#584444;
+            color:  #fae39f;
+
+        }
+        .cross{
+            width: 40px;
+            height: 40px;
+            right: 0;
+            top: 0;
+            color: #fae39f;
+            background-color: #584444;
+
+        }
+        @media (max-width:400px){
+            .cross{
+                width: 30px;
+            height: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-6 col-sm-4 py-3 px-4 jump_window ">
+        <div class="row justify-content-center">
+            <img src="./img_購物車首頁/coffee.png" class="col-6 w-100 p-0" alt="">
+            <div class="d-flex justify-content-center col-10 p-0">
+                <p>品項已存在，是否前往購物車？</p>
+            </div>
+            <div class="col-12">
+                <div class="row p-0 m-0 justify-content-center">
+                    <div class="col-12 col-xs-10 col-md-8">
+                        <div class="row p-0 m-0 justify-content-between">
+                            <a href="./購物車.html" class="btn-sure col-4 p-0 py-2">是</a>
+                            <div class="btn-sure col-4 p-0 py-2">否</div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center cross position-absolute"> &#935;</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+    <script src="./js/購物車.js"></script>
+</body>
+
+</html>

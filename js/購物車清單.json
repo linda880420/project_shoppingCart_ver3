@@ -1,0 +1,64 @@
+ [{
+    "name": "Butter Caramel Mille-Feuille – Japan",
+    "img": "./img_購物車首頁/drinks/2.jpeg",
+    "item": "Starbucks holiday drinks ",
+    "viewer": 14,
+    "price": 20.00
+},
+{
+    "name": "Aurora Chamomile Tea Relaxer – South Korea",
+    "img": "./img_購物車首頁/drinks/1.jpeg",
+    "item": "Beverages",
+    "viewer": 4,
+    "price": 13.00
+},
+{
+    "name": "Caramel Brulée Latte – U.S.andCanada ",
+    "img": "./img_購物車首頁/drinks/3.jpeg",
+    "item": "Beverages",
+    "viewer": 5,
+    "price": 16.00
+},
+{
+    "name": "Dolce Strawberry Milk – South Korea ",
+    "img": "./img_購物車首頁/drinks/8.webp",
+    "item": "Beverages",
+    "viewer": 10,
+    "price": 17.00
+},
+{
+    "name": "Caramel Waffle Latte – Europe, Middle East and Africa ",
+    "img": "./img_購物車首頁/drinks/4.jpeg",
+    "item": "Beverages",
+    "viewer": 12,
+    "price": 10.00
+},
+{
+    "name": "Chestnut Praline Latte – U.S., Canada",
+    "img": "./img_購物車首頁/drinks/5.jpeg",
+    "item": "Beverages",
+    "viewer": 10,
+    "price": 12.00
+},
+{
+    "name": "Gingerbread Latte – Asia, Japan, Europe, Middle East and Africa",
+    "img": "./img_購物車首頁/drinks/5.jpeg",
+    "item": "Beverages",
+    "viewer": 10,
+    "price": 10.00
+},
+{
+    "name": "Cranberry White Mocha – Latin America and Caribbean",
+    "img": "./img_購物車首頁/drinks/6.jpeg",
+    "item": "Beverages",
+    "viewer": 11,
+    "price": 17.00
+},
+{
+    "name": "Creme Brulée Latte – Japan",
+    "img": "./img_購物車首頁/drinks/7.jpeg",
+    "item": "Beverages",
+    "viewer": 19,
+    "price": 15.00
+}
+]

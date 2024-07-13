@@ -1,0 +1,53 @@
+body button.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #016241;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-caption{
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%) translateY(100%);
+    width: 100%;
+    background-color: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.carousel-inner {
+    margin-bottom: 152px;
+    overflow: unset;
+}
+.carousel-inner p{
+width: 100%;
+padding:0 30px;
+height: 48px;
+}
+.carousel-inner h5{
+    height: 40px;
+}
+.carousel-indicators{
+    bottom: -140px;
+}
+.line-mark::before{
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 2px;
+    background-color: #016241;
+    bottom: 0;
+    right: 0;
+}
+.text-area{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 100px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+}
+.text-area2{
+    max-height: 85px;
+    -webkit-line-clamp: 3;
+}
